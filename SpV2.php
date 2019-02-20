@@ -31,7 +31,6 @@ foreach ($countries as $countryCode) {
 						echo $method." SUCCESS\n";
 						if (function_exists("cli_set_process_title")) cli_set_process_title("GAC Spammer - ".++$i." Hits");
 						$success = true;
-					}
 				}
 			}
 		}
